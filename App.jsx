@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { useSharedReports } from "./hooks/useSharedReports";
-import { useSharedUsers }   from "./hooks/useSharedUsers";
-import { useSubscription }  from "./hooks/useSubscription";
-import { getSubscriptionStatus } from "./utils/helpers";
-import { Login }            from "./pages/Login";
-import { DriverApp }        from "./pages/DriverApp";
-import { SupervisorApp }    from "./pages/SupervisorApp";
-import { PaymentWall }      from "./components/PaymentWall";
+import { useSharedReports } from "./useSharedReports";
+import { useSharedUsers }   from "./useSharedUsers";
+import { useSubscription }  from "./useSubscription";
+import { getSubscriptionStatus } from "./helpers";
+import { Login }            from "./Login";
+import { DriverApp }        from "./DriverApp";
+import { SupervisorApp }    from "./SupervisorApp";
+import { PaymentWall }      from "./PaymentWall";
 
 export default function App() {
   const { users, saveUsers }                           = useSharedUsers();
