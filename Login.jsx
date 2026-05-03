@@ -80,7 +80,7 @@ export function Login({ users, onLogin }) {
           <label style={css.label}>Usuario
             <input style={css.inp} value={user}
               onChange={(e) = /> { setUser(e.target.value); setErr(""); }}
-              placeholder={tab === "supervisor" ? "cramirez / mlopez" : "atorres / lherrera…"}
+              placeholder={tab === "supervisor" ? "cramirez / mlopez" : "atorres / lherrera"}
             />
           </label>
           <div style={{ height: 14 }} />
