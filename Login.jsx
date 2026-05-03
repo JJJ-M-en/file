@@ -79,7 +79,7 @@ export function Login({ users, onLogin }) {
         <div style={{ padding: "26px 24px 22px" }}>
           <label style={css.label}>Usuario
             <input style={css.inp} value={user}
-              onChange={(e) = /> { setUser(e.target.value); setErr(""); }}
+             onChange={(e) => { setUser(e.target.value); setErr(""); }}
               placeholder={tab === "supervisor" ? "cramirez / mlopez" : "atorres / lherrera"}
             />
           </label>
