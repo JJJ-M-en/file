@@ -1,6 +1,6 @@
 import { StrictMode }  from "react";
 import { createRoot }  from "react-dom/client";
-import { globalStyles } from "./utils/styles";
+import { globalStyles } from from "./styles";
 import App from "./App";
 
 // Inject global keyframes + resets (fonts are already in index.html)
